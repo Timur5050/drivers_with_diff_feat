@@ -1,0 +1,4 @@
+#define BUFFER_SIZE 64
+#define DEVICE_NAME "simple_char"
+#define SIMPLE_CHAR_IOC_MAGIC 'k'
+#define SIMPLE_CHAR_CLEAR _IO(SIMPLE_CHAR_IOC_MAGIC, 0)
